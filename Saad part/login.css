@@ -1,0 +1,456 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* header *//* header *//* header *//* header */
+
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around !important;
+    height: 50px;
+    border-bottom: 1px solid rgb(204, 201, 201);
+}
+
+header p{
+    margin: 17px 0px;
+    font-weight: 600;
+}
+
+.hotline{
+    color: #0dcaf0;
+    font-weight: 600;
+}
+
+.top{
+    display: flex;
+}
+
+.media{
+    margin: 10px 10px;
+    padding-top: 5px;
+    border-left: 2px solid rgb(204, 201, 201) ;
+    height: 30px;
+    border-right: 2px solid rgb(204, 201, 201);
+    
+}
+
+.media img{
+    margin: 0px 7px;
+}
+
+.login{
+    margin: 17px 0px;
+    display: flex;
+}
+
+.img1{
+    margin-top: -2px;
+}
+
+.s1{
+    margin: 0px 15px 0px 5px;
+    font-weight: 600;
+    color: #8E8E8E;
+    cursor: pointer;
+}
+
+.s2{
+    margin: 0px 6px;
+    font-weight: 600;
+    color: #8E8E8E;
+    cursor: pointer;
+}
+
+
+
+/* Nav *//* Nav *//* Nav *//* Nav *//* Nav *//* Nav */
+
+
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.menu{
+    display: flex;
+    
+    
+}
+
+ul li{
+    display: inline;
+    text-decoration: none;
+    margin: 0px 40px ;
+    font-weight: 600;
+    cursor: pointer;  
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+ul li a:hover{
+    color: #0dcaf0
+}
+
+ul{
+    margin-top: 20px !important;
+}
+
+.menu button{
+    width: 100px;
+    height: 40px;
+    background-color: #ffc107;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 20px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.navlogin{
+    display: flex;
+    border-left: 2px solid rgb(204, 201, 201);
+    height: 30px;
+    margin-top: 12px;
+    
+}
+
+.log{
+    display: flex;
+    margin: 0px 10px 0px 10px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.reg{
+    background-color: #0dcaf0;
+    width: 110px;
+    height: 30px;
+    display: flex;
+    border-radius: 20px;
+    margin: 3px 0px 0px 15px;
+    padding: 6px 0px 0px 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.L{
+    margin: 0px 5px;
+    font-weight: 600;
+}
+
+.R{
+    margin: 0px 7px;
+    font-weight: 600;
+}
+
+
+
+
+/* section1 *//* section1 *//* section1 *//* section1 */
+
+
+
+.section1{
+    width: 100%;
+    height: 750px;
+    background-image: url(./pictures/photos/business-concept-with-team-close-up.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;;
+    margin-top: 20px;
+}
+/* .section1 h1{
+    color: #078d86;
+    padding: 80px 0px 0px 300px;
+    font-size: 55px
+
+} */
+
+
+
+
+
+/* section2 *//* section2 *//* section2 *//* section2 */
+
+
+
+.section2{
+    width: 60%;
+    height: 750px;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    bottom: 250px;
+
+}
+
+.yellow{
+    width: 100%;
+    background-color: #ffc107;
+    height: 60px;
+}
+
+.yellow h1{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.register{
+    width: 100%;
+    height: 120px;
+}
+
+.btn1{
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    border: 0;
+    border-radius: 7px;
+    background-color: rgb(221, 212, 212);
+    margin-top: 40px;
+    margin-left: 50px ;
+    cursor: pointer;
+}
+
+.btn2{
+    width: 300px;
+    height: 50px;
+    font-size: 17px;
+    background-color: #ffc107;
+    border: 0;
+    border-radius: 7px;
+    margin-top: 40px;
+    margin-left: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.loginbtn{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.loginbtn button{
+    width: 180px;
+    height: 45px;
+    border: 0px;
+    background-color:#ffc107 ;
+    color: white;
+    border-radius: 7px;
+    font-size: 16px;
+    margin-top: 35px ;
+    cursor: pointer;
+}
+
+
+.social{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+}
+
+.social a{
+    margin: 0px 3px 0px 3px;
+}
+
+.G{
+    border-radius: 5px;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.inp{
+    width: 400px;
+    height: 45px;
+    border: 1px solid rgb(199, 196, 196);
+    border-radius: 5px;
+    padding-left:  10px;
+    opacity: 0.9;
+}
+
+.input1{
+    margin: 5px 0px 5px 60px;
+}
+.input2{
+    margin: 5px 0px 5px 64px;
+}
+
+.remem{
+    margin-left: 140px;
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+    opacity: 0.8;
+    
+    
+    
+}
+
+.remember{
+    font-size: 16px;
+    position: relative;
+    bottom: 4px;
+    left: 4px;
+    
+}
+
+ .continue{
+    border-top: 1px solid #8E8E8E;
+    width: 100%;
+    height: 100px;
+    margin-top: 40px;
+    
+}
+
+form button{
+    width: 130px;
+    height: 50px;
+    background-color: #ffc107;
+    border: 0;
+    border-radius: 7px;
+    color: white;
+    margin-left: 220px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.line div{
+    width: 100%;
+    height: 500px;
+    border-bottom: 1px solid black;
+}
+
+
+
+.forget a{
+    margin-top: 20px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    font-size: 20px;
+    color: #ffc107;
+}
+.yet{
+    margin-top: 20px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    font-size: 20px;
+   
+}
+
+.yet a{
+    text-decoration: none;
+    color: #ffc107;
+}
+
+
+
+
+
+/* footer *//* footer *//* footer *//* footer *//* footer */
+
+
+
+
+
+
+.foot{
+    display: flex;
+    justify-content: space-around;
+    background-color: #bd951e;
+    color: rgb(255, 255, 255);
+    height: 450px;
+    width: 100%;
+
+}
+
+.foot p{
+    font-size: 18px;
+    line-height: 20px;
+}
+.rye7{
+    width: 250px;
+}
+.rye7 p{
+    line-height: 25px;
+    margin-top: 20px;
+
+}
+
+.sef{
+    display: flex;
+    margin-top: 20px;
+}
+.sef a{
+    margin: 0px 5px;
+    
+}
+
+.meme{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.lwl{
+    margin-top: 70px;
+}
+
+.tani{
+    margin-top: 70px;
+}
+.talt{
+    margin-top: 70px;
+}
+.rabe3{
+    margin-top: 70px;
+}
+.click{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.copyright{
+    width: 100%;
+    height: 70px;
+    background-color: #a08124;
+    text-align: center;
+    color: white;
+    padding-top: 30px
+}

@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg{
+    background-image: url(images/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    position:sticky !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:20px 100px;
+    background-color:rgba(0,0,0,.1);
+    backdrop-filter: blur(50px);
+}
+
+.menu{
+    padding-left: 70px;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+.navbar a{
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 30px !important;
+}
+
+/* END NAV */
+.search{
+    margin-top: 250px;
+    background-color:rgba(0,0,0,.1);
+}
+
+.home-section{
+    width: 100%;
+    height: 84%;
+}
+.home-content{
+    width: 100%;
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+.heading-home{
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+    text-align: center;
+}
+.type{
+    display: flex;
+    justify-content: center;
+    margin-top: 220px;
+    height: 60px;
+    font-size: 100px !important; 
+}
+a{
+    text-decoration: none !important;
+    color: #fff !important;
+}
+.sr-job{
+    width: 90%;
+    height: 20vh;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    bottom: -30px;
+    left: 70px;
+    padding: 0px 26px;
+    box-shadow: 2px 2px 14px rgb(145, 142, 142);
+}
+.sr-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.boxes{
+    padding: 14px 20px;
+    width: 180px;
+    height: 55px;
+    margin: 0px 10px;
+}
+.search-btn{
+    display: inline-block;
+    padding: 14px 30px;
+    background-color: orange;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px 10px;
+}
+.search-btn:hover{
+background-color: rgba(243, 168, 30, 0.775)
+}
+
+/* Cards Part */
+
+.title{
+    /* height: 40vh; */
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #0473cf;
+}
+.title h5{
+    color: rgb(255, 217, 0);
+}
+.tt{
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.s2-cont{
+    display: flex;
+    justify-content: center;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    height: 155px;
+    width: 300px;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    color: orange;
+}
+.cards:hover{
+    cursor: pointer;
+    background-color: orange;
+    color: #fff;
+}
+/* New Jobs Section */
+.new-j{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    padding: 10px;
+}
+
+.par{
+    margin-left: 10px;
+}
+.part span{
+    background-color: rgb(0, 132, 255) !important;
+    border-radius: 5px;
+    font-weight: bold !important;
+}
+.full span{
+    background-color: red !important;
+    border-radius: 5px;
+    font-weight: bold !important;
+}
+.free span{
+    background-color: rgba(10, 167, 49, 0.769) !important;
+    border-radius: 5px;
+    font-weight: bold !important;
+}
+.card-title{
+    color: orange !important;
+}
+.salary{
+    color: #0473cf;
+}
+.more{
+    display: flex;
+    justify-content: center;
+}
+#bttn{
+    width: 200px;
+    background-color: #0473cf !important;
+}
+.analytics{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:20px;
+    height: 300px;
+    width: 100%;
+    background-image: url(images/bg3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.total{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    height: 155px;
+    width: 300px;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+.total h3{
+    font-size: 50px;
+    font-weight: bold;
+}
+/* Top Rank Condidats */
+.container
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   cursor: pointer;
+}
+.container .candid
+{
+   width: 330px;
+   height: 416px;
+   padding: 60px 30px;
+   margin: 20px;
+   background: #f2f3f7;
+   box-shadow: 0.6em 0.6em 1.2em #d2dce9,
+               -0.5em -0.5em 1em #ffffff;
+   border-radius: 20px;
+}
+.container .candid .content
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.container .candid .content .imgBx
+{
+   width: 180px;
+   height: 180px;
+   border-radius: 50%;
+   margin-bottom: 20px;
+}
+.container .candid .content .imgBx img
+{
+   width: 100%;
+   height: 100%;
+}
+.container .candid .content .contentBx h4
+{
+   color: #36187d;
+   font-size: 1.7rem;
+   font-weight: bold;
+   text-align: center;
+   letter-spacing: 1px;
+}
+.container .candid .content .contentBx h5
+{
+   color: #6c758f;
+   font-size: 1.2rem;
+   font-weight: bold;
+   text-align: center;
+}
+.container .candid .content .contentBx h6
+{
+   color: #cb750b;
+   font-size: 17px;
+   font-weight: bold;
+   text-align: center;
+}
+.container .candid .content .contentBx h3
+{
+   color: #5b8bf4;
+   font-size: 17px;
+   font-weight: bold;
+   text-align: center;
+}
+.container .candid .content .contentBx button
+{
+   color: #5b8bf4;
+   font-size: 17px;
+   font-weight: bold;
+   text-align: center;
+}
+/* footer */
+.gen{
+    display: flex;
+    justify-content: space-around;
+    background-color: #0473cf;
+    color: rgb(194, 194, 194);
+    height: 450px;
+    width: 100%;
+
+}
+
+.gen p{
+    font-size: 18px;
+    line-height: 20px;
+}
+.sef{
+    display: flex;
+    margin-top: 20px;
+}
+.sef a{
+    margin: 0px 5px;
+}
+
+.meme{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.lwl{
+    margin-top: 70px;
+}
+.lwl img{
+    margin-top: 100px;
+}
+.tani{
+    margin-top: 70px;
+}
+.talt{
+    margin-top: 70px;
+}
+.talt2{
+    margin-top: 70px;
+}
+.morre{
+    margin-top: 70px;
+}
+.rabe3{
+    margin-top: 70px;
+}
+.click{
+    cursor: pointer;
+}
+.copyright{
+    width: 100%;
+    height: 70px;
+    background-color: #031f36;
+    text-align: center;
+    color: white;
+    padding-top: 30px
+}
+
